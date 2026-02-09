@@ -1,0 +1,44 @@
+{
+  "name": "@lxgicstudios/og-check",
+  "version": "1.0.0",
+  "description": "Validate Open Graph meta tags for any URL. Preview how your links look on Twitter, Facebook, LinkedIn, and Slack. Flag missing og:title, og:description, og:image. Check image dimensions and get actionable fix suggestions.",
+  "main": "dist/index.js",
+  "bin": {
+    "og-check": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "open-graph",
+    "og-tags",
+    "meta-tags",
+    "seo-checker",
+    "twitter-card",
+    "social-preview",
+    "link-preview",
+    "facebook-share",
+    "linkedin-preview",
+    "og-image",
+    "og-validator",
+    "cli-tool",
+    "seo-tools"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/og-check"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
